@@ -1,5 +1,21 @@
-/* Color custom properties */
+/* Font include */
+@font-face {
+  font-family: "nexa-reguler";
+  src: url(Nexa\ Regular.otf);
+}
 
+@font-face {
+  font-family: "nexa-bold";
+  src: url(Nexa\ Regular.otf);
+}
+
+@font-face {
+  font-family: "nexa-light";
+  src: url(Nexa\ Light.otf);
+}
+
+
+/* Color custom properties */
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
@@ -2890,6 +2906,7 @@ details-disclosure > details {
   align-items: center !important;
   padding: 10px 60px;
   max-height: 35px;
+  font-family: "nexa-reguler", sans-serif;
 }
 
 .content a {
