@@ -2901,11 +2901,11 @@ details-disclosure > details {
 .content{
   display: flex;
   color:white;
-  font-size: 12px;
+  font-size: 10px;
   justify-content: space-between !important;
   align-items: center !important;
   padding: 10px 60px;
-  max-height: 35px;
+  max-height: 40px;
   font-family: "nexa-reguler", sans-serif;
 }
 
