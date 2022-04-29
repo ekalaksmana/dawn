@@ -2873,3 +2873,18 @@ details-disclosure > details {
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
 }
+
+
+/* CSS Update From Cecep */
+
+
+.bg-black {
+  background: black !important;
+}
+
+.content{
+  display: flex;
+  color:white;
+  justify-content: space-between !important;
+  padding: 10px 60px;
+}
