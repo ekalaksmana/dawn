@@ -2889,7 +2889,7 @@ details-disclosure > details {
   justify-content: space-between !important;
   align-items: center !important;
   padding: 10px 60px;
-  min-height: 60px;
+  max-height: 35px;
 }
 
 .content a {
