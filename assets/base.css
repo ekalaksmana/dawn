@@ -2924,3 +2924,10 @@ details-disclosure > details {
     justify-content: center !important;
   }
 }
+
+@media (max-width:507px){
+  .content{
+    font-size: 8px;
+    padding: 0;
+  }
+}
