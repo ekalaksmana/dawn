@@ -2886,5 +2886,13 @@ details-disclosure > details {
   display: flex;
   color:white;
   justify-content: space-between !important;
+  align-items: center !important;
   padding: 10px 60px;
+  min-height: 60px;
+}
+
+.content a {
+  text-decoration: none;
+  color: white;
+  padding-right: 30px;
 }
