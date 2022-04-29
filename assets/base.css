@@ -2914,3 +2914,9 @@ details-disclosure > details {
   color: white;
   padding-right: 30px;
 }
+
+@media (max-width:1030px){
+  .hide-on-mobile{
+    display: none;
+  }
+}
