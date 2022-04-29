@@ -2922,13 +2922,12 @@ details-disclosure > details {
   padding-right: 30px;
 }
 
-.doubly-wrapper.currency-switcher {
+.doubly-wrapper.atas select {
   background: none !important;
   border: none !important;
   color: #fff !important;
   font-size: 10px !important;
-  font-family: "nexa-reguler", sans-serif !important;
-  padding-right: 0px !important;
+  font-family: "nexa-reguler", sans-serif;
 }
 
 @media (max-width:1030px){
