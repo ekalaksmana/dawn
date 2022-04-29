@@ -2919,4 +2919,8 @@ details-disclosure > details {
   .hide-on-mobile{
     display: none;
   }
+
+  .content{
+    justify-content: center !important;
+  }
 }
