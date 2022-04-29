@@ -2885,6 +2885,7 @@ details-disclosure > details {
 .content{
   display: flex;
   color:white;
+  font-size: 12px;
   justify-content: space-between !important;
   align-items: center !important;
   padding: 10px 60px;
