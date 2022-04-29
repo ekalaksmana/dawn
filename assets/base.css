@@ -2922,10 +2922,9 @@ details-disclosure > details {
   padding-right: 30px;
 }
 
-.doubly-wrapper.atas select {
+.doubly-wrapper{
   background: transparent !important;
   border: none !important;
-  color: #fff !important;
   font-size: 10px !important;
   font-family: "nexa-reguler", sans-serif;
 }

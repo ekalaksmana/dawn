@@ -463,6 +463,8 @@
       {%- endif -%}
     {%- endif -%}
 
+    <!-- <div class="doubly-wrapper header hide-on-desktop"></div> -->
+
     <div class="header__icons">
       <details-modal class="header__search">
         <details>
@@ -537,7 +539,7 @@
         </details>
       </details-modal>
 
-      <div class="doubly-wrapper header hide-on-desktop"></div>
+      
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
