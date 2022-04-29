@@ -292,6 +292,10 @@ html.no-js .no-js-hidden {
   }
 }
 
+body{
+  font-family: "nexa-reguler", sans-serif;
+}
+
 body,
 .color-background-1,
 .color-background-2,
