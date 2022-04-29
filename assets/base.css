@@ -2923,12 +2923,12 @@ details-disclosure > details {
 }
 
 .doubly-wrapper.currency-switcher {
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 10px;
-  font-family: "nexa-reguler", sans-serif;
-  padding-right: 0px;
+  background: none !important;
+  border: none !important;
+  color: #fff !important;
+  font-size: 10px !important;
+  font-family: "nexa-reguler", sans-serif !important;
+  padding-right: 0px !important;
 }
 
 @media (max-width:1030px){
