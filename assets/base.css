@@ -2923,7 +2923,7 @@ details-disclosure > details {
 }
 
 .doubly-wrapper.atas select {
-  background: none !important;
+  background: transparent !important;
   border: none !important;
   color: #fff !important;
   font-size: 10px !important;
