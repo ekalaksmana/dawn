@@ -151,14 +151,22 @@
             "type": "link_list",
             "settings": {
               "heading": "General Information",
-              "menu": "footer"
+              "menu": "general-information"
+            }
+          },
+          "e90dea80-d4d8-4ec2-816d-91586c6a7fd6": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": ""
             }
           }
         },
         "block_order": [
           "d02c371d-4166-4a27-902a-d9fd8abe46b1",
           "footer-0",
-          "footer-1"
+          "footer-1",
+          "e90dea80-d4d8-4ec2-816d-91586c6a7fd6"
         ],
         "settings": {
           "color_scheme": "accent-1",
