@@ -2922,6 +2922,15 @@ details-disclosure > details {
   padding-right: 30px;
 }
 
+.doubly-wrapper.currency-switcher {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 10px;
+  font-family: "nexa-reguler", sans-serif;
+  padding-right: 0px;
+}
+
 @media (max-width:1030px){
   .hide-on-mobile{
     display: none;
