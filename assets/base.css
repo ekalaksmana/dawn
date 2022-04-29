@@ -2899,6 +2899,8 @@ details-disclosure > details {
 /* CSS Update From Cecep */
 
 
+
+/* announcement */
 .bg-black {
   background: black !important;
 }
@@ -2934,5 +2936,27 @@ details-disclosure > details {
   .content{
     font-size: 8px;
     padding: 0;
+  }
+}
+
+/* end announchement */
+
+/* header menus */
+
+.header__inline-menu>ul>li {
+  color: #000 !important;
+}
+.header__inline-menu ul li span {
+  color: black !important;
+  font-weight: bold;
+}
+
+@media (min-width:500px){
+  .header__inline-menu>ul>li {
+    padding-right: 20px;
+  }
+
+  .header.header--middle-left.page-width.header--has-menu > a {
+    margin-right: 40px;
   }
 }
