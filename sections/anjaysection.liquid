@@ -41,17 +41,7 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.slide-1 {
-    background-image: url("https://cdn.shopify.com/s/files/1/0541/2198/8270/files/IMG_9099.jpg?v=1614058217");
-}
 
-.slide-2 {
-    background-image: url("https://cdn.shopify.com/s/files/1/0541/2198/8270/files/IMG_9099.jpg?v=1614058217");
-}
-
-.slide-3 {
-    background-image: url("https://cdn.shopify.com/s/files/1/0541/2198/8270/files/IMG_9099.jpg?v=1614058217");
-}
 
 .slide-content {
     text-align: center;
@@ -130,24 +120,21 @@
     </style>
 </head>
 
+{% stylesheet %}
+.slide-1 {
+    background-image: url("{{  }}");
+}
+{% endstylesheet %}
+
 <body>
     <div class="owl-carousel">
-        <div class="slide slide-1">
+        {%for block in section.blocks%}
+        <div class="slide" style="background-image: url({{ block.settings.imageslides | image_url: 'master' }});">
             <div class="slide-content">
-                <h1>Welcome To Tech Memorise</h1>
-                
+                <h1>Welcome To Tech Memorise</h1> 
             </div>
         </div>
-        <div class="slide slide-2">
-            <div class="slide-content">
-                <h1>Your True Tech Navigator</h1>
-            </div>
-        </div>
-        <div class="slide slide-3">
-            <div class="slide-content">
-                <h1>Your True Source of Learning Web Dev</h1>
-            </div>
-        </div>
+        {%endfor%}
     </div>
 
 
@@ -178,11 +165,21 @@
   {
     "name": "Slide Anjay",
     "settings": [],
+    "blocks":[{
+       "name": "Slide Show",
+      "type": "image",
+      "setting":[
+       {
+           "type": "image_picker",
+           "id": "imageslides",
+           "label": "Select Image"
+       }
+      ]
+    }],
     "presets": [
       {
-        "name": "Slide Anjay",
-        "category": "Custom"
+        "name": "Slide Anjay"
       }
     ]
   }
-{% endschema %}
+{% endschema %}'
