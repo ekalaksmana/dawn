@@ -140,6 +140,24 @@
     },
     "1651614053457382be": {
       "type": "icon-with-text",
+      "blocks": {
+        "b9908eb3-e96b-4281-9029-8208b8453c93": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide-2.jpg"
+          }
+        },
+        "1408bf91-9aa6-4d95-974a-e5f25be010f0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide-1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "b9908eb3-e96b-4281-9029-8208b8453c93",
+        "1408bf91-9aa6-4d95-974a-e5f25be010f0"
+      ],
       "settings": {
         "heading": "",
         "description": ""
