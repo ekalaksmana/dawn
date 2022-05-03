@@ -137,6 +137,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1651614053457382be": {
+      "type": "icon-with-text",
+      "settings": {
+        "heading": "",
+        "description": ""
+      }
     }
   },
   "order": [
@@ -144,6 +151,7 @@
     "image_banner",
     "rich_text",
     "featured_collection",
-    "collage"
+    "collage",
+    "1651614053457382be"
   ]
 }
