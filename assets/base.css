@@ -2968,6 +2968,10 @@ details-disclosure > details {
   .header.header--middle-left.page-width.header--has-menu > a {
     margin-right: 40px;
   }
+
+  .header--middle-left .header__inline-menu {
+    margin-left: 80px;
+  }
 }
 
 /* sliders */
