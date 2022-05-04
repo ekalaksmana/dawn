@@ -139,6 +139,13 @@
               "subtext": "<p>customerservice@jesuisflirt.com<br\/>(+62)813 5674 23<\/p>"
             }
           },
+          "e90dea80-d4d8-4ec2-816d-91586c6a7fd6": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": ""
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "disabled": true,
@@ -153,20 +160,13 @@
               "heading": "General Information",
               "menu": "general-information"
             }
-          },
-          "e90dea80-d4d8-4ec2-816d-91586c6a7fd6": {
-            "type": "text",
-            "settings": {
-              "heading": "",
-              "subtext": ""
-            }
           }
         },
         "block_order": [
           "d02c371d-4166-4a27-902a-d9fd8abe46b1",
+          "e90dea80-d4d8-4ec2-816d-91586c6a7fd6",
           "footer-0",
-          "footer-1",
-          "e90dea80-d4d8-4ec2-816d-91586c6a7fd6"
+          "footer-1"
         ],
         "settings": {
           "color_scheme": "accent-1",

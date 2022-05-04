@@ -109,24 +109,23 @@
             "collection": "swimwear"
           }
         },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "aguilera-dress",
-            "second_image": false
-          }
-        },
         "collection-1": {
           "type": "collection",
           "settings": {
             "collection": "frontpage"
           }
+        },
+        "2f85ac19-1a02-4520-a488-1878367d6d2b": {
+          "type": "collection",
+          "settings": {
+            "collection": "swimwear"
+          }
         }
       },
       "block_order": [
         "collection-0",
-        "product",
-        "collection-1"
+        "collection-1",
+        "2f85ac19-1a02-4520-a488-1878367d6d2b"
       ],
       "settings": {
         "heading": "",
