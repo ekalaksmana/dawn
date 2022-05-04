@@ -204,6 +204,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16516340281ab2a5e5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"instagram-feed-box\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -212,6 +221,7 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "1651623957e4082ab5"
+    "1651623957e4082ab5",
+    "16516340281ab2a5e5"
   ]
 }
