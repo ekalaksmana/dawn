@@ -3,3 +3,8 @@
 .collage h3.card__heading {
     text-transform: uppercase;
 }
+
+/* sejajarin image size */
+.card__inner.color-background-2.gradient.ratio {
+    height: 100%;
+  }
