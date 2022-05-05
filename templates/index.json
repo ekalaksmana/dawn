@@ -139,6 +139,7 @@
     },
     "1651623957e4082ab5": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1651623957bd7e6046-0": {
           "type": "column",
@@ -203,6 +204,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "165172466948cb58bf": {
+      "type": "custom-html",
+      "settings": {
+        "html_here": "<style>\n    .flirt-flex{\n        width: 100vw;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n    }\n\n    @media (max-width:1085px){\n        .flirt-flex{\n            flex-direction: column;\n\n        }\n    }\n\n<\/style>\n<div class=\"flirt-flex\">\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-4.jpg?v=1650947807\" alt=\"\"><\/div>\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-1.jpg?v=1650947731\" alt=\"\"><\/div>\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-2.jpg?v=1650947807\" alt=\"\"><\/div>\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-3.jpg?v=1650947807\" alt=\"\"><\/div>\n    <\/div>"
+      }
     }
   },
   "order": [
@@ -211,6 +218,7 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "1651623957e4082ab5"
+    "1651623957e4082ab5",
+    "165172466948cb58bf"
   ]
 }
