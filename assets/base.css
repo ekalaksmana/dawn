@@ -2998,4 +2998,8 @@ details-disclosure > details {
     .card__information .price{
     	font-size:10px;
     }
+    
+    .card__content h3 {
+    font-size: 12px !important;
+    }
   }
