@@ -8,3 +8,11 @@
 .card__inner.color-background-2.gradient.ratio {
     height: 100%;
   }
+
+
+
+@media screen and (min-width: 750px) {
+  .section-template--15555848470702__featured_collection-padding {
+    padding-top: 48px !important;
+  }
+}
