@@ -17,8 +17,8 @@
   }
   
   .list-social {
-  justify-content: flex-start;
-  padding-left: 245px;
+  justify-content: flex-start !important;
+  padding-left: 245px !important;
 }
 }
 
