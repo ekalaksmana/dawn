@@ -2995,7 +2995,7 @@ details-disclosure > details {
 }
 
   @media (max-width:900px){
-    .card__information.price{
+    .card__information .price{
     	font-size:10px;
     }
   }
