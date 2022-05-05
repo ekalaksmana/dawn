@@ -15,4 +15,11 @@
   .section-template--15555848470702__featured_collection-padding {
     padding-top: 48px !important;
   }
+  
+  .list-social {
+  justify-content: flex-start;
+  padding-left: 245px;
 }
+}
+
+
