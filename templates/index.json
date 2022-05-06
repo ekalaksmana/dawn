@@ -211,6 +211,44 @@
         "html_here": "<style>\n    .flirt-flex{\n        width: 100vw;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n    }\n\n    @media (max-width:1085px){\n        .flirt-flex{\n            flex-direction: column;\n\n        }\n    }\n\n<\/style>\n<div class=\"flirt-flex\">\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-4.jpg?v=1650947807\" alt=\"\"><\/div>\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-1.jpg?v=1650947731\" alt=\"\"><\/div>\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-2.jpg?v=1650947807\" alt=\"\"><\/div>\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-3.jpg?v=1650947807\" alt=\"\"><\/div>\n    <\/div>"
       }
     },
+    "1651831481ca482b9b": {
+      "type": "rich-text",
+      "blocks": {
+        "165183148027d91049-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find us on Instagram",
+            "heading_size": "h1"
+          }
+        },
+        "165183148027d91049-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>@jesuis_flirt<\/p>"
+          }
+        },
+        "165183148027d91049-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "165183148027d91049-0",
+        "165183148027d91049-1",
+        "165183148027d91049-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16518313436fb80ec7": {
       "type": "apps",
       "blocks": {
@@ -230,6 +268,28 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "16518315684aacbfed": {
+      "type": "rich-text",
+      "blocks": {
+        "16518315680df13611-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "FIND US NOW",
+            "button_link": "https:\/\/www.instagram.com\/jesuis_flirt\/",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16518315680df13611-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -240,6 +300,8 @@
     "collage",
     "1651623957e4082ab5",
     "165172466948cb58bf",
-    "16518313436fb80ec7"
+    "1651831481ca482b9b",
+    "16518313436fb80ec7",
+    "16518315684aacbfed"
   ]
 }
