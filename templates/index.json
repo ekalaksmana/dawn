@@ -210,6 +210,26 @@
       "settings": {
         "html_here": "<style>\n    .flirt-flex{\n        width: 100vw;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n    }\n\n    @media (max-width:1085px){\n        .flirt-flex{\n            flex-direction: column;\n\n        }\n    }\n\n<\/style>\n<div class=\"flirt-flex\">\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-4.jpg?v=1650947807\" alt=\"\"><\/div>\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-1.jpg?v=1650947731\" alt=\"\"><\/div>\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-2.jpg?v=1650947807\" alt=\"\"><\/div>\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-3.jpg?v=1650947807\" alt=\"\"><\/div>\n    <\/div>"
       }
+    },
+    "16518313436fb80ec7": {
+      "type": "apps",
+      "blocks": {
+        "121d7bfe-c1fc-420a-aaf8-dc80cb570fc4": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "helvetica_n4",
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "121d7bfe-c1fc-420a-aaf8-dc80cb570fc4"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -219,6 +239,7 @@
     "featured_collection",
     "collage",
     "1651623957e4082ab5",
-    "165172466948cb58bf"
+    "165172466948cb58bf",
+    "16518313436fb80ec7"
   ]
 }
