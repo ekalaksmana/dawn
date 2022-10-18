@@ -5,54 +5,6 @@
       "settings": {
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -255,7 +207,6 @@
         "121d7bfe-c1fc-420a-aaf8-dc80cb570fc4": {
           "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_font": "helvetica_n4",
             "heading_size": 20,
             "feed_width": 100,
             "html_area": ""
@@ -294,7 +245,6 @@
   },
   "order": [
     "1651216332a75ad607",
-    "image_banner",
     "rich_text",
     "featured_collection",
     "collage",
