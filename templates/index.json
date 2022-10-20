@@ -1,8 +1,20 @@
 {
   "sections": {
-    "1651216332a75ad607": {
-      "type": "anjaysection",
+    "166629416511c2c2d6": {
+      "type": "apps",
+      "blocks": {
+        "76e80cc0-6659-479b-acc3-f187523f9365": {
+          "type": "shopify:\/\/apps\/image-slider-ea\/blocks\/embed-code\/187cfdb3-f7ca-4af8-9477-517eb71154e7",
+          "settings": {
+            "embed-code": "<div id=\"enap-slider-19497\"><\/div><script src=\"https:\/\/www.enormapps.com\/slider-v2\/assets\/frontend\/js\/embed.js\" data-id=\"19497\" async defer><\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "76e80cc0-6659-479b-acc3-f187523f9365"
+      ],
       "settings": {
+        "include_margins": false
       }
     },
     "rich_text": {
@@ -157,10 +169,21 @@
         "padding_bottom": 36
       }
     },
-    "165172466948cb58bf": {
-      "type": "custom-html",
+    "1666294227c93527e6": {
+      "type": "apps",
+      "blocks": {
+        "22cb57f5-8334-4890-9f55-af8edaea7888": {
+          "type": "shopify:\/\/apps\/image-slider-ea\/blocks\/embed-code\/187cfdb3-f7ca-4af8-9477-517eb71154e7",
+          "settings": {
+            "embed-code": "<div id=\"enap-gallery-83123\"><\/div><script src=\"https:\/\/enormapps.com\/gallery-v2\/assets\/frontend\/js\/embed.js\" data-id=\"83123\" async defer><\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "22cb57f5-8334-4890-9f55-af8edaea7888"
+      ],
       "settings": {
-        "html_here": "<script>\n\n$( document ).ready(function() {\nconst slider_mark = document.getElementById(\"enrm-branding-19497\");\n\nslider_mark.style.display = \"none\"; \n});\n\nconsole.log('done')\n<\/script>\n\n<style>\n    .flirt-flex{\n        width: 100vw;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n    }\n\n    @media (max-width:1085px){\n        .flirt-flex{\n            flex-direction: column;\n\n        }\n    }\n\n<\/style>\n<div class=\"flirt-flex\">\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-4.jpg?v=1650947807\" alt=\"\"><\/div>\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-1.jpg?v=1650947731\" alt=\"\"><\/div>\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-2.jpg?v=1650947807\" alt=\"\"><\/div>\n        <div class=\"flirt-content\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0541\/2198\/8270\/files\/slide-3.jpg?v=1650947807\" alt=\"\"><\/div>\n    <\/div>"
+        "include_margins": true
       }
     },
     "1651831481ca482b9b": {
@@ -244,12 +267,12 @@
     }
   },
   "order": [
-    "1651216332a75ad607",
+    "166629416511c2c2d6",
     "rich_text",
     "featured_collection",
     "collage",
     "1651623957e4082ab5",
-    "165172466948cb58bf",
+    "1666294227c93527e6",
     "1651831481ca482b9b",
     "16518313436fb80ec7",
     "16518315684aacbfed"
