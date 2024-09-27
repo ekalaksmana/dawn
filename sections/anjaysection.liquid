@@ -193,14 +193,22 @@
 </body>
 
 {% schema %}
-  {
-    "name": "Slide Anjay",
-    "settings": [],
-    "presets": [
-      {
-        "name": "Slide Anjay",
-        "category": "Custom"
-      }
-    ]
-  }
+{
+  "name": "Image Carousel",
+  "settings": [],
+  "presets": [{
+    "name": "Default",
+    "category": "Custom"
+  }],
+  "blocks": [{
+    "type": "image",
+    "name": "Carousel Image",
+    "settings": [{
+      "type": "image_picker",
+      "id": "image",
+      "label": "Select Image"
+    }]
+  }],
+  "max_blocks": 10
+}
 {% endschema %}
