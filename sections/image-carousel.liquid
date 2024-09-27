@@ -20,7 +20,7 @@
     }],
   }
 {% endschema %}
-
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 <div class="main-carousel">
   {% for block in section.blocks %}
     <div class="carousel-cell">
@@ -31,13 +31,27 @@
     </div>
   {% endfor %}
 </div>
-
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script>
+  var flkty = new Flickity( '.main-carousel', {
+    cellAlign: 'left',
+    contain: true
+  });
+</script>
 <style>
   .main-carousel {
-    display: flex;
-    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100vh;
   }
   .carousel-cell {
-    min-width: 100%; /* Adjust based on your design */
+    width: 100%;
+    height: 100vh;
+  }
+
+  .carousel-cell img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
   }
 </style>
