@@ -20,3 +20,24 @@
     }],
   }
 {% endschema %}
+
+<div class="main-carousel">
+  {% for block in section.blocks %}
+    <div class="carousel-cell">
+      <img src="{{ block.settings.image | image_url: '2000x' }}" 
+           alt="Carousel Image" 
+           width="2000" 
+           height="2000" />
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+  .main-carousel {
+    display: flex;
+    overflow: hidden;
+  }
+  .carousel-cell {
+    min-width: 100%; /* Adjust based on your design */
+  }
+</style>
