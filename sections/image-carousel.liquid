@@ -1,14 +1,22 @@
 <section></section>
 
 {% schema %}
-  {
+{
+  "name": "Image Carousel",
+  "settings": [],
+  "presets": [{
     "name": "Slider Hero",
-    "settings": [],
-    "presets": [
-      {
-        "name": "Slide Anjay",
-        "category": "Custom"
-      }
-    ]
-  }
+    "category": "Custom"
+  }],
+  "blocks": [{
+    "type": "image",
+    "name": "Carousel Image",
+    "settings": [{
+      "type": "image_picker",
+      "id": "image",
+      "label": "Select Image"
+    }]
+  }],
+  "max_blocks": 10
+}
 {% endschema %}
