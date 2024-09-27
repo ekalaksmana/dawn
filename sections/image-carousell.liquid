@@ -1,41 +1,38 @@
 {% schema %}
 {
   "name": "Image Carousel",
-  "settings": [],
-  "presets": [{
-    "name": "Default",
-    "category": "Custom"
-  }],
-  "blocks": [{
-    "type": "image",
-    "name": "Carousel Image",
-    "settings": [{
+  "class": "shopify-section--bordered",
+  "settings": [
+    {
       "type": "image_picker",
-      "id": "image",
-      "label": "Select Image"
-    }]
-  }],
-  "max_blocks": 10
+      "id": "left_image",
+      "label": "Left Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "right_image",
+      "label": "Right Image"
+    }
+  ],
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+   ],
+  "presets": [
+    {
+      "category": "Advanced",
+      "name": "Client Request",
+      "settings": {}
+    }
+  ]
 }
 {% endschema %}
-
-<div class="main-carousel">
-  {% for block in section.blocks %}
-    <div class="carousel-cell">
-      <img src="{{ block.settings.image | image_url: '2000x' }}" 
-           alt="Carousel Image" 
-           width="2000" 
-           height="2000" />
-    </div>
-  {% endfor %}
-</div>
-
-<style>
-  .main-carousel {
-    display: flex;
-    overflow: hidden;
-  }
-  .carousel-cell {
-    min-width: 100%; /* Adjust based on your design */
-  }
-</style>
