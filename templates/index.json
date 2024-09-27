@@ -1,12 +1,44 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "image_carousel_4mA76U": {
+      "type": "image-carousel",
+      "blocks": {
+        "image_zirD8q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9099.jpg"
+          }
+        },
+        "image_XyKQA3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9099.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_zirD8q",
+        "image_XyKQA3"
+      ],
+      "settings": {
+      }
+    },
     "166629416511c2c2d6": {
       "type": "apps",
       "blocks": {
         "76e80cc0-6659-479b-acc3-f187523f9365": {
-          "type": "shopify:\/\/apps\/image-slider-ea\/blocks\/embed-code\/187cfdb3-f7ca-4af8-9477-517eb71154e7",
+          "type": "shopify://apps/image-slider-pro/blocks/embed-code/187cfdb3-f7ca-4af8-9477-517eb71154e7",
           "settings": {
-            "embed-code": "<div id=\"enap-slider-19497\"><\/div><script src=\"https:\/\/www.enormapps.com\/slider-v2\/assets\/frontend\/js\/embed.js\" data-id=\"19497\" async defer><\/script>"
+            "embed-code": "<div id=\"enap-slider-19497\"></div><script src=\"https://www.enormapps.com/slider-v2/assets/frontend/js/embed.js\" data-id=\"19497\" async defer></script>"
           }
         }
       },
@@ -23,7 +55,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Luxury resortwear created by Fabiola Aisha and Indah Kalalo to empower women to feel fabulous and sexy at all times!<\/p>"
+            "text": "<p>Luxury resortwear created by Fabiola Aisha and Indah Kalalo to empower women to feel fabulous and sexy at all times!</p>"
           }
         }
       },
@@ -103,12 +135,11 @@
     },
     "1651623957e4082ab5": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1651623957bd7e6046-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slide-4.jpg",
+            "image": "shopify://shop_images/slide-4.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -118,7 +149,7 @@
         "1651623957bd7e6046-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slide-1.jpg",
+            "image": "shopify://shop_images/slide-1.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -128,7 +159,7 @@
         "1651623957bd7e6046-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slide-2.jpg",
+            "image": "shopify://shop_images/slide-2.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -138,7 +169,7 @@
         "30472b71-e34d-4b30-a1bb-5549d121221c": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slide-3.jpg",
+            "image": "shopify://shop_images/slide-3.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -152,6 +183,7 @@
         "1651623957bd7e6046-2",
         "30472b71-e34d-4b30-a1bb-5549d121221c"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h0",
@@ -173,9 +205,9 @@
       "type": "apps",
       "blocks": {
         "22cb57f5-8334-4890-9f55-af8edaea7888": {
-          "type": "shopify:\/\/apps\/image-slider-ea\/blocks\/embed-code\/187cfdb3-f7ca-4af8-9477-517eb71154e7",
+          "type": "shopify://apps/image-slider-pro/blocks/embed-code/187cfdb3-f7ca-4af8-9477-517eb71154e7",
           "settings": {
-            "embed-code": "<div id=\"enap-gallery-83123\"><\/div><script src=\"https:\/\/enormapps.com\/gallery-v2\/assets\/frontend\/js\/embed.js\" data-id=\"83123\" async defer><\/script>"
+            "embed-code": "<div id=\"enap-gallery-83123\"></div><script src=\"https://enormapps.com/gallery-v2/assets/frontend/js/embed.js\" data-id=\"83123\" async defer></script>"
           }
         }
       },
@@ -199,7 +231,7 @@
         "165183148027d91049-1": {
           "type": "text",
           "settings": {
-            "text": "<p>@jesuis_flirt<\/p>"
+            "text": "<p>@jesuis_flirt</p>"
           }
         },
         "165183148027d91049-2": {
@@ -228,10 +260,12 @@
       "type": "apps",
       "blocks": {
         "121d7bfe-c1fc-420a-aaf8-dc80cb570fc4": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "background_color": "",
             "html_area": ""
           }
         }
@@ -250,7 +284,7 @@
           "type": "button",
           "settings": {
             "button_label": "FIND US NOW!",
-            "button_link": "https:\/\/www.instagram.com\/jesuis_flirt\/",
+            "button_link": "https://www.instagram.com/jesuis_flirt/",
             "button_style_secondary": false
           }
         }
@@ -267,6 +301,7 @@
     }
   },
   "order": [
+    "image_carousel_4mA76U",
     "166629416511c2c2d6",
     "rich_text",
     "featured_collection",
