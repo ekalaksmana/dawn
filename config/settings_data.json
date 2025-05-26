@@ -112,7 +112,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Welcome to Je'Suis Flirt",
               "color_scheme": "accent-1",
               "link": ""
             }
@@ -121,6 +121,7 @@
         "block_order": [
           "announcement-bar-0"
         ],
+        "custom_css": [],
         "settings": {}
       },
       "header": {
